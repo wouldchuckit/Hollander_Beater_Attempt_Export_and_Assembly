@@ -1126,8 +1126,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.14670981661272922,
-          "y": 0.25635103926096997,
+          "x": 0.14509169363538296,
+          "y": 0.23094688221709006,
           "uniqueID": "id-10910",
           "name": "Extract Tag",
           "ioValues": [
@@ -1141,8 +1141,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.14185544768069042,
-          "y": 0.489607390300231,
+          "x": 0.10787486515641856,
+          "y": 0.44110854503464203,
           "uniqueID": "id-10913",
           "name": "Extract Tag",
           "ioValues": [
@@ -1156,8 +1156,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.15372168284789645,
-          "y": 0.7043879907621247,
+          "x": 0.07928802588996764,
+          "y": 0.6674364896073902,
           "uniqueID": "id-10916",
           "name": "Extract Tag",
           "ioValues": [
@@ -1175,6 +1175,140 @@
           "y": 0.2747806004618938,
           "uniqueID": "id-10921",
           "name": "RotorLayers"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.08845738942826321,
+          "y": 0.7782909930715934,
+          "uniqueID": "id-10924",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -20,
+              "currentEquation": "-2*WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.09169363538295577,
+          "y": 0.9237875288683602,
+          "uniqueID": "id-10930",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -10,
+              "currentEquation": "-WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.16235167206040993,
+          "y": 0.8267898383371823,
+          "uniqueID": "id-10936",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.17691477885652643,
+          "y": 0.5265588914549654,
+          "uniqueID": "id-10942",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 20,
+              "currentEquation": "2*WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.26591154261057176,
+          "y": 0.3140877598152425,
+          "uniqueID": "id-10948",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.30906148867313915,
+          "y": 0.14549653579676675,
+          "uniqueID": "id-10954",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Readme text here",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -1192,6 +1326,47 @@
           "ap2Name": "geometry",
           "ap1ID": "id-9583",
           "ap2ID": "id-10916"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10910",
+          "ap2ID": "id-10948"
+        },
+        null,
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10913",
+          "ap2ID": "id-10942"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10916",
+          "ap2ID": "id-10924"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10916",
+          "ap2ID": "id-10930"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-10916",
+          "ap2ID": "id-10936"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-10924",
+          "ap2ID": "id-10936"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-10930",
+          "ap2ID": "id-10936"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-10948",
+          "ap2ID": "id-10954"
         }
       ],
       "fileTypeVersion": 1
