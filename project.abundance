@@ -1126,8 +1126,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.14509169363538296,
-          "y": 0.23094688221709006,
+          "x": 0.1413160733549083,
+          "y": 0.17551963048498845,
           "uniqueID": "id-10910",
           "name": "Extract Tag",
           "ioValues": [
@@ -1273,8 +1273,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.26591154261057176,
-          "y": 0.3140877598152425,
+          "x": 0.2901833872707659,
+          "y": 0.19861431870669746,
           "uniqueID": "id-10948",
           "ioValues": [
             {
@@ -1291,14 +1291,15 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 40,
+              "currentEquation": "4*WoodThick"
             }
           ]
         },
         {
           "atomType": "Readme",
-          "x": 0.30906148867313915,
-          "y": 0.14549653579676675,
+          "x": 0.14185544768069042,
+          "y": 0.2863741339491917,
           "uniqueID": "id-10954",
           "name": "README",
           "ioValues": [
@@ -1307,8 +1308,128 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
-          "readMeText": "Readme text here",
+          "readMeText": "In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers. ",
           "global": true
+        },
+        {
+          "atomType": "Move",
+          "x": 0.284789644012945,
+          "y": 0.3163972286374134,
+          "uniqueID": "id-10956",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.2842502696871629,
+          "y": 0.4272517321016166,
+          "uniqueID": "id-10962",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.28532901833872704,
+          "y": 0.5427251732101617,
+          "uniqueID": "id-10968",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.28640776699029125,
+          "y": 0.651270207852194,
+          "uniqueID": "id-10974",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.36084142394822005,
+          "y": 0.302540415704388,
+          "uniqueID": "id-10988",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1332,7 +1453,11 @@
           "ap1ID": "id-10910",
           "ap2ID": "id-10948"
         },
-        null,
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-10910",
+          "ap2ID": "id-10954"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-10913",
@@ -1364,10 +1489,41 @@
           "ap2ID": "id-10936"
         },
         {
-          "ap2Name": "value",
+          "ap2Name": "geometry",
           "ap1ID": "id-10948",
-          "ap2ID": "id-10954"
-        }
+          "ap2ID": "id-10956"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-10948",
+          "ap2ID": "id-10988"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10956",
+          "ap2ID": "id-10962"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-10956",
+          "ap2ID": "id-10988"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10962",
+          "ap2ID": "id-10968"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-10962",
+          "ap2ID": "id-10988"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10968",
+          "ap2ID": "id-10974"
+        },
+        null
       ],
       "fileTypeVersion": 1
     },
