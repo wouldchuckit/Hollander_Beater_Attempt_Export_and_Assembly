@@ -1598,6 +1598,30 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.8683926645091693,
+          "y": 0.6651270207852193,
+          "uniqueID": "id-11044",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1770,7 +1794,13 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-11036",
           "ap2ID": "id-9577"
-        }
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11036",
+          "ap2ID": "id-11044"
+        },
+        null
       ],
       "fileTypeVersion": 1
     },
