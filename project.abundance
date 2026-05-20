@@ -1824,6 +1824,15 @@
         },
         {
           "name": "BitDiameter",
+          "ioValue": 3.17,
+          "currentEquation": "3.17"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 10
+        },
+        {
+          "name": "Speed",
           "ioValue": 10
         }
       ],
@@ -1992,15 +2001,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 10
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2068,15 +2077,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2134,8 +2143,8 @@
         },
         {
           "atomType": "Gcode",
-          "x": 0.6186623516720604,
-          "y": 0.43187066974595845,
+          "x": 0.6154261057173679,
+          "y": 0.45727482678983833,
           "uniqueID": "id-13962",
           "ioValues": [
             {
@@ -2144,15 +2153,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2228,15 +2237,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2304,15 +2313,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2380,15 +2389,15 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 3.17
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 10
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 10
             },
             {
               "name": "Cut Through",
@@ -2423,6 +2432,20 @@
           "y": 0.36937644341801384,
           "uniqueID": "id-14017",
           "name": "BitDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.42937644341801384,
+          "uniqueID": "id-14020",
+          "name": "Passes"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.48937644341801384,
+          "uniqueID": "id-14023",
+          "name": "Speed"
         }
       ],
       "allConnectors": [
@@ -2521,7 +2544,91 @@
           "ap1ID": "id-14017",
           "ap2ID": "id-13934"
         },
-        null
+        {
+          "ap2Name": "Tool Size",
+          "ap1ID": "id-14017",
+          "ap2ID": "id-13948"
+        },
+        {
+          "ap2Name": "Tool Size",
+          "ap1ID": "id-14017",
+          "ap2ID": "id-13962"
+        },
+        {
+          "ap2Name": "Tool Size",
+          "ap1ID": "id-14017",
+          "ap2ID": "id-13976"
+        },
+        {
+          "ap2Name": "Tool Size",
+          "ap1ID": "id-14017",
+          "ap2ID": "id-13990"
+        },
+        {
+          "ap2Name": "Tool Size",
+          "ap1ID": "id-14017",
+          "ap2ID": "id-14004"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-13934"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-13948"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-13962"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-13976"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-13990"
+        },
+        {
+          "ap2Name": "Passes",
+          "ap1ID": "id-14020",
+          "ap2ID": "id-14004"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-13934"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-13948"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-13962"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-13976"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-13990"
+        },
+        {
+          "ap2Name": "Speed",
+          "ap1ID": "id-14023",
+          "ap2ID": "id-14004"
+        }
       ],
       "fileTypeVersion": 1
     },
