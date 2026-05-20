@@ -1611,7 +1611,8 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 90,
+              "currentEquation": "90"
             },
             {
               "name": "y-axis degrees",
@@ -1791,16 +1792,15 @@
           "ap2ID": "id-11036"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11036",
-          "ap2ID": "id-9577"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-11036",
           "ap2ID": "id-11044"
         },
-        null
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11044",
+          "ap2ID": "id-9577"
+        }
       ],
       "fileTypeVersion": 1
     },
