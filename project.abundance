@@ -1929,8 +1929,8 @@
         },
         {
           "atomType": "CutLayout",
-          "x": 0.41963322545846815,
-          "y": 0.3187066974595843,
+          "x": 0.3365695792880259,
+          "y": 0.16166281755196305,
           "uniqueID": "id-13927",
           "name": "Cut Layout",
           "ioValues": [
@@ -1970,9 +1970,245 @@
         },
         {
           "atomType": "Gcode",
-          "x": 0.5048543689320388,
-          "y": 0.4018475750577367,
+          "x": 0.40614886731391586,
+          "y": 0.17551963048498845,
           "uniqueID": "id-13934",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Tool Size",
+              "ioValue": 6.35
+            },
+            {
+              "name": "Passes",
+              "ioValue": 1
+            },
+            {
+              "name": "Speed",
+              "ioValue": 1500
+            },
+            {
+              "name": "Cut Through",
+              "ioValue": 0
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "ExportLayers",
+              "currentEquation": "ExportLayers"
+            }
+          ],
+          "partName": "ExportLayers",
+          "sortDirection": "Left"
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.4385113268608414,
+          "y": 0.3117782909930716,
+          "uniqueID": "id-13941",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 90,
+                "translate": {
+                  "x": 105.19999999999999,
+                  "y": 296.13381822093726
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "atomType": "Gcode",
+          "x": 0.5075512405609494,
+          "y": 0.3117782909930716,
+          "uniqueID": "id-13948",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Tool Size",
+              "ioValue": 6.35
+            },
+            {
+              "name": "Passes",
+              "ioValue": 1
+            },
+            {
+              "name": "Speed",
+              "ioValue": 1500
+            },
+            {
+              "name": "Cut Through",
+              "ioValue": 0
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "ExportLayers",
+              "currentEquation": "ExportLayers"
+            }
+          ],
+          "partName": "ExportLayers",
+          "sortDirection": "Left"
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.5490830636461704,
+          "y": 0.43187066974595845,
+          "uniqueID": "id-13955",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 270,
+                "translate": {
+                  "x": 127.70000000000006,
+                  "y": 295.20000000000005
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "atomType": "Gcode",
+          "x": 0.6186623516720604,
+          "y": 0.43187066974595845,
+          "uniqueID": "id-13962",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Tool Size",
+              "ioValue": 6.35
+            },
+            {
+              "name": "Passes",
+              "ioValue": 1
+            },
+            {
+              "name": "Speed",
+              "ioValue": 1500
+            },
+            {
+              "name": "Cut Through",
+              "ioValue": 0
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "ExportLayers",
+              "currentEquation": "ExportLayers"
+            }
+          ],
+          "partName": "ExportLayers",
+          "sortDirection": "Left"
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.662891046386192,
+          "y": 0.5542725173210161,
+          "uniqueID": "id-13969",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 270,
+                "translate": {
+                  "x": 120.77338330000002,
+                  "y": 283.95
+                }
+              },
+              {
+                "id": 1,
+                "rotate": 60,
+                "translate": {
+                  "x": 31.605921995902044,
+                  "y": 226.1555519962107
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "atomType": "Gcode",
+          "x": 0.7464940668824164,
+          "y": 0.5681293302540416,
+          "uniqueID": "id-13976",
           "ioValues": [
             {
               "name": "geometry",
@@ -2042,8 +2278,38 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-13912",
+          "ap2ID": "id-13955"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13915",
+          "ap2ID": "id-13969"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13921",
+          "ap2ID": "id-13941"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-13927",
           "ap2ID": "id-13934"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13941",
+          "ap2ID": "id-13948"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13955",
+          "ap2ID": "id-13962"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13969",
+          "ap2ID": "id-13976"
         }
       ],
       "fileTypeVersion": 1
