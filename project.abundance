@@ -1087,6 +1087,141 @@
     },
     {
       "atomType": "Molecule",
+      "x": 0.5399137001078749,
+      "y": 0.23325635103926096,
+      "uniqueID": "id-9575",
+      "name": "",
+      "ioValues": [
+        {
+          "name": "Parts",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "RotorLayers",
+          "ioValue": 20,
+          "currentEquation": "RotorLayers"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9577",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.21478060046189376,
+          "uniqueID": "id-9583",
+          "name": "Parts",
+          "type": "geometry"
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.14670981661272922,
+          "y": 0.25635103926096997,
+          "uniqueID": "id-10910",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "RotorLayer",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.14185544768069042,
+          "y": 0.489607390300231,
+          "uniqueID": "id-10913",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "LiftingLayer",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.15372168284789645,
+          "y": 0.7043879907621247,
+          "uniqueID": "id-10916",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "AxleSupportLayer",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.2747806004618938,
+          "uniqueID": "id-10921",
+          "name": "RotorLayers"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9583",
+          "ap2ID": "id-10910"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9583",
+          "ap2ID": "id-10913"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9583",
+          "ap2ID": "id-10916"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.5312837108953614,
+      "y": 0.7782909930715934,
+      "uniqueID": "id-9579",
+      "name": "ExportLayers",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9581",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
       "x": 0.4563106796116505,
       "y": 0.48036951501154734,
       "uniqueID": "id-770",
@@ -7126,6 +7261,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 1
                             },
@@ -7222,6 +7361,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 1
                             },
@@ -7239,6 +7382,10 @@
                           "uniqueID": "id-1680",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 1
@@ -7258,6 +7405,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 1
                             },
@@ -7276,6 +7427,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 1
                             },
@@ -7293,6 +7448,10 @@
                           "uniqueID": "id-1683",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 1
@@ -7607,6 +7766,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 2
                             },
@@ -7703,6 +7866,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 2
                             },
@@ -7720,6 +7887,10 @@
                           "uniqueID": "id-1702",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 2
@@ -7739,6 +7910,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 2
                             },
@@ -7757,6 +7932,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 2
                             },
@@ -7774,6 +7953,10 @@
                           "uniqueID": "id-1705",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 2
@@ -8088,6 +8271,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 3
                             },
@@ -8184,6 +8371,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 3
                             },
@@ -8201,6 +8392,10 @@
                           "uniqueID": "id-1724",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 3
@@ -8220,6 +8415,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 3
                             },
@@ -8238,6 +8437,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 3
                             },
@@ -8255,6 +8458,10 @@
                           "uniqueID": "id-1727",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 3
@@ -8569,6 +8776,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 4
                             },
@@ -8665,6 +8876,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 4
                             },
@@ -8682,6 +8897,10 @@
                           "uniqueID": "id-1746",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 4
@@ -8701,6 +8920,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 4
                             },
@@ -8719,6 +8942,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 4
                             },
@@ -8736,6 +8963,10 @@
                           "uniqueID": "id-1749",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 4
@@ -9050,6 +9281,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 5
                             },
@@ -9146,6 +9381,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 5
                             },
@@ -9163,6 +9402,10 @@
                           "uniqueID": "id-1768",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 5
@@ -9182,6 +9425,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 5
                             },
@@ -9200,6 +9447,10 @@
                           "name": "t * ( i -1) * move",
                           "ioValues": [
                             {
+                              "name": "t",
+                              "ioValue": true
+                            },
+                            {
                               "name": "i",
                               "ioValue": 5
                             },
@@ -9217,6 +9468,10 @@
                           "uniqueID": "id-1771",
                           "name": "t * ( i -1) * move",
                           "ioValues": [
+                            {
+                              "name": "t",
+                              "ioValue": true
+                            },
                             {
                               "name": "i",
                               "ioValue": 5
@@ -10360,68 +10615,6 @@
           "ap2ID": "id-6493"
         }
       ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.5399137001078749,
-      "y": 0.23325635103926096,
-      "uniqueID": "id-9575",
-      "name": "FullModel",
-      "ioValues": [
-        {
-          "name": "Parts",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-9577",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.0165,
-          "y": 0.19399538106235564,
-          "uniqueID": "id-9583",
-          "name": "Parts",
-          "type": "geometry"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.5312837108953614,
-      "y": 0.7782909930715934,
-      "uniqueID": "id-9579",
-      "name": "ExportLayers",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-9581",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        }
-      ],
-      "allConnectors": [],
       "fileTypeVersion": 1
     }
   ],
