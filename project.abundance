@@ -1839,8 +1839,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.20496224379719524,
-          "y": 0.2448036951501155,
+          "x": 0.2470334412081985,
+          "y": 0.16397228637413394,
           "uniqueID": "id-13909",
           "name": "Extract Tag",
           "ioValues": [
@@ -1854,8 +1854,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.18338727076591155,
-          "y": 0.5219399538106235,
+          "x": 0.25026968716289105,
+          "y": 0.42494226327944573,
           "uniqueID": "id-13912",
           "name": "Extract Tag",
           "ioValues": [
@@ -1869,8 +1869,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.17313915857605178,
-          "y": 0.697459584295612,
+          "x": 0.24973031283710895,
+          "y": 0.558891454965358,
           "uniqueID": "id-13915",
           "name": "Extract Tag",
           "ioValues": [
@@ -1879,12 +1879,13 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
+          "tag": "LiftingLayerTop",
           "tagIndex": 0
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.16612729234088458,
-          "y": 0.8729792147806004,
+          "x": 0.24757281553398058,
+          "y": 0.6720554272517321,
           "uniqueID": "id-13918",
           "name": "Extract Tag",
           "ioValues": [
@@ -1893,12 +1894,13 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
+          "tag": "LiftingLayerBottom",
           "tagIndex": 0
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.22869471413160733,
-          "y": 0.39260969976905313,
+          "x": 0.25674217907227614,
+          "y": 0.28868360277136257,
           "uniqueID": "id-13921",
           "name": "Extract Tag",
           "ioValues": [
@@ -1909,6 +1911,97 @@
           ],
           "tag": "BottomOfRotorSection",
           "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.21790722761596548,
+          "y": 0.789838337182448,
+          "uniqueID": "id-13924",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "AxleSupportLayer",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.41963322545846815,
+          "y": 0.3187066974595843,
+          "uniqueID": "id-13927",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 120,
+                "translate": {
+                  "x": 174.9730774217297,
+                  "y": 174.97307742172964
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "atomType": "Gcode",
+          "x": 0.5048543689320388,
+          "y": 0.4018475750577367,
+          "uniqueID": "id-13934",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Tool Size",
+              "ioValue": 6.35
+            },
+            {
+              "name": "Passes",
+              "ioValue": 1
+            },
+            {
+              "name": "Speed",
+              "ioValue": 1500
+            },
+            {
+              "name": "Cut Through",
+              "ioValue": 0
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "ExportLayers",
+              "currentEquation": "ExportLayers"
+            }
+          ],
+          "partName": "ExportLayers",
+          "sortDirection": "Left"
         }
       ],
       "allConnectors": [
@@ -1936,6 +2029,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-12469",
           "ap2ID": "id-13921"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-12469",
+          "ap2ID": "id-13924"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13909",
+          "ap2ID": "id-13927"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13927",
+          "ap2ID": "id-13934"
         }
       ],
       "fileTypeVersion": 1
