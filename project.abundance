@@ -1820,13 +1820,11 @@
         },
         {
           "name": "CuttingSheetY",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
-          "ioValue": 3.17,
-          "currentEquation": "3.17"
+          "ioValue": 3.17
         },
         {
           "name": "Passes",
@@ -1854,7 +1852,7 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.18937644341801385,
+          "y": 0.1,
           "uniqueID": "id-12469",
           "name": "AllLayers",
           "type": "geometry"
@@ -2416,35 +2414,35 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.24937644341801385,
+          "y": 0.16,
           "uniqueID": "id-14011",
           "name": "Cutting_SheetX"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.30937644341801385,
+          "y": 0.22,
           "uniqueID": "id-14014",
           "name": "CuttingSheetY"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.36937644341801384,
+          "y": 0.28,
           "uniqueID": "id-14017",
           "name": "BitDiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.42937644341801384,
+          "y": 0.34,
           "uniqueID": "id-14020",
           "name": "Passes"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.48937644341801384,
+          "y": 0.4,
           "uniqueID": "id-14023",
           "name": "Speed"
         }
