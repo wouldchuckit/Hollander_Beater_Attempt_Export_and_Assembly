@@ -33,7 +33,7 @@
 
 In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
 
-![readme](/readmeid-10954.svg?v=nn856km)
+![readme](/readmeid-10954.svg?v=spsct9)
 
 
 
@@ -52,7 +52,7 @@ You would need to manually adjust and copy for different numbers of rotor teeth.
 
 I intend to drill holes through the rotor and teeth when it is all assembled for stainless steel screws to go through the teeth to hold them in. Currently thinking diagonal but could do vertically through the tooth with a countersink 
 
-![readme](/readmeid-5190.svg?v=ncnkev7)
+![readme](/readmeid-5190.svg?v=naw2rd2)
 
 
 
