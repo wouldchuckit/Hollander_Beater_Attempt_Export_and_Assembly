@@ -29,7 +29,7 @@
 
 
 
- ### 
+ ### assembled
 
 In this case I have 20 Rotor Layers.  You would need to rebuild this bit by hand for other numbers of layers.  
 
